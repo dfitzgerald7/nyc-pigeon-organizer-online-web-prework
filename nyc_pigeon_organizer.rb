@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
     hashes.each do |attribute2, pigeons|
       pigeons.each do |pigeon|
         binding.pry
-        if new_hash[pigeon][attribute] == nil 
+        if new_hash[pigeon] == nil 
           new_hash[pigeon] = {attribute => [attribute2.to_s]}
         else 
           new_hash[pigeon][attribute] << attribute2
