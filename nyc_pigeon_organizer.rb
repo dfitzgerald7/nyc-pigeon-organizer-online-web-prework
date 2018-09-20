@@ -10,7 +10,7 @@ def nyc_pigeon_organizer(data)
           new_hash[pigeon] = {attribute => [attribute2.to_s]}
         else 
           new_hash[pigeon][attribute] << attribute2
-        else 
+        
         end 
       end 
     end 
